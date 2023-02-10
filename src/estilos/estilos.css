@@ -75,7 +75,8 @@ a:hover{
     color: #ffffff;
     margin-bottom: 30px;
 
-}h2{
+}
+.perguntas > h2{
     color: #bdbd03;
     margin-bottom: 20px;
     font-family: var(--inter);
@@ -86,4 +87,15 @@ h3{
     color: #ffffff;
     font-family: var(--inter);
     margin-bottom: 15px;
+}
+.ranking{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ranking > img{
+    width: 70%;
+}
+div{
+    font-family: var(--inter);
+    font-size: 10px;
 }
