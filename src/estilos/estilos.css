@@ -9,6 +9,9 @@
 :root{
     --inter: 'Inter', sans-serif;
 }
+ul{
+    display: none;
+}
 body{
     height: 100vh;
     width: 92vw;
@@ -29,6 +32,9 @@ header{
 section > img{
     width: 100%;
 }
+.imagem-de-desktop{
+    display: none;
+}
 .futuro-web{
     display: grid;
     row-gap: 20px;
@@ -46,7 +52,7 @@ p{
     font-size: 17px;
     line-height: 1.5em;
 }
-a{
+nav > a{
     color: #ffffff;
     padding: 15px;
     background-color: #ff0000;
@@ -55,7 +61,7 @@ a{
     font-weight: bold;
     display: inline-block;
 }
-a:hover{
+nav > a:hover{
     background-color: #000000;
 }
 .secao-perguntas{

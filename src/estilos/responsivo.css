@@ -1,5 +1,59 @@
 @media screen and (min-width: 769px){
-    
+    .menu-hamburguer{
+        display: none;
+    }
+    body{
+        max-width: 1300px;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 23px;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+    a{
+        color: black;
+    }
+    main{
+        display: grid;
+        gap: 50px;
+        grid-template-areas: 
+            "imagem              imagem              secao-perguntas"
+            "imagem              imagem              secao-perguntas"
+            "futuro-da-web       futuro-da-web       secao-perguntas"
+            "ranking-informacoes ranking-informacoes ranking-informacoes"
+            ;
+    }
+    .imagem{
+        grid-area: imagem;
+    }
+    .futuro-da-web{
+        grid-area: futuro-da-web;
+    }
+    .secao-perguntas{
+        grid-area: secao-perguntas;
+    }
+    .ranking-informacoes{
+        grid-area: ranking-informacoes;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .ranking{
+        grid-template-rows: 1fr 1fr 1fr
+    }
+    .navegacao{
+        grid-area: navegacao;
+    }
+    .imagem-de-celular{
+        display: none;
+    }
+    .imagem-de-desktop{
+        display: block;
+    }
+    .futuro-web{
+        display: grid;
+    }
 
 }
 
