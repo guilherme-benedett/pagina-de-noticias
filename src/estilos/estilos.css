@@ -11,23 +11,19 @@
 }
 body{
     height: 100vh;
-    width: 95vw;
+    width: 92vw;
 }
 main{
     margin: 20px;
     display: grid;
-    row-gap: 50px;
+    row-gap: 20px;
 }
 header{
     height: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-}
-.icone-menu{
-    justify-self: end;
 }
 section > img{
     width: 100%;
@@ -90,12 +86,25 @@ h3{
 }
 .ranking{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0fr 1fr;
+    gap: 20px;
 }
 .ranking > img{
-    width: 70%;
+    width: 120px;
+}
+.ranking-informacoes{
+    display: grid;
+    gap: 10px;
 }
 div{
     font-family: var(--inter);
     font-size: 10px;
+}
+div > h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.508);
+}
+div > p{
+    font-size: 15px;
 }
