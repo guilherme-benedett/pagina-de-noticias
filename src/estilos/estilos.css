@@ -29,11 +29,8 @@ header{
     justify-content: space-between;
     margin: 20px;
 }
-section > img{
+picture > img{
     width: 100%;
-}
-.imagem-de-desktop{
-    display: none;
 }
 .futuro-web{
     display: grid;
@@ -51,6 +48,9 @@ p{
     letter-spacing: 1px;
     font-size: 17px;
     line-height: 1.5em;
+}
+nav{
+    margin-top: 28px;
 }
 nav > a{
     color: #ffffff;
@@ -101,7 +101,7 @@ h3{
 }
 .ranking-informacoes{
     display: grid;
-    gap: 10px;
+    gap: 20px;
 }
 div{
     font-family: var(--inter);

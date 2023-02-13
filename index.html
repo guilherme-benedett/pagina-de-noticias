@@ -25,17 +25,19 @@
         </ul>
     </header>
     <main>
-        <section class="imagem">
-                <img src="src/imagens/imagem mobile.jpg" alt="imagem de celular" class="imagem-de-celular">
-                <img src="src/imagens/imagem desktop.jpg" alt="imagem de desktop" class="imagem-de-desktop">
-        </section>
+        <picture class="imagem">
+            <source media="(max-width: 769px)" srcset="src/imagens/imagem_mobile.jpg" type="image/jpg">
+            <img src="src/imagens/imagem_desktop.jpg" alt="imagem de computador">
+        </picture>
         <section class="futuro-da-web">
             <article class="futuro-web">
                 <h1>The Bright Future of Web?</h1>
-                <p>We dive into the the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                <nav>
-                    <a href="#">READ MORE</a>
-                </nav>
+            </article>
+            <article>
+                    <p>We dive into the the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <nav>
+                        <a href="#">READ MORE</a>
+                    </nav>
             </article>
         </section>
         <section class="secao-perguntas">
