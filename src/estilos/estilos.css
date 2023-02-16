@@ -51,6 +51,7 @@ p{
 }
 nav{
     margin-top: 28px;
+    text-align: left;
 }
 nav > a{
     color: #ffffff;
